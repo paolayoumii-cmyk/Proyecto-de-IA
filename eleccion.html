@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlateMatch - Preferencias</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tipografía y Estilos Propios -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Iconos Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="text-dark pb-5">
+
+  <div class="container py-4" style="max-width: 500px;">
+
+    <!-- ENCABEZADO -->
+    <header class="d-flex align-items-center bg-white p-3 rounded-4 shadow-sm border border-light mb-4">
+      <div>
+        <h1 class="h3 fw-bold mb-0 text-dark">
+          Plate<span class="text-warning">Match</span>
+        </h1>
+        <p class="small text-muted mb-0 d-flex align-items-center gap-1 mt-1">
+          <span>Come bien - come rico</span>
+          <span>•</span>
+          <span class="badge bg-light text-dark fw-semibold">Mesa #4</span>
+        </p>
+      </div>
+    </header>
+
+    <!-- FORMULARIO DE PREFERENCIAS -->
+    <main class="vstack gap-3">
+
+      <!-- Selector Individual / Grupal -->
+      <div class="bg-secondary bg-opacity-10 p-1 rounded-3 row g-1 mx-0">
+        <div class="col-6">
+          <button type="button" class="btn bg-white w-100 fw-bold text-dark shadow-sm py-2">
+            <i data-lucide="user" class="text-warning me-1" style="width: 16px;"></i> Individual
+          </button>
+        </div>
+        <div class="col-6">
+          <button type="button" class="btn w-100 text-secondary fw-semibold py-2">
+            <i data-lucide="users" class="me-1" style="width: 16px;"></i> Grupal
+          </button>
+        </div>
+      </div>
+
+      <!-- Barra de Comensales -->
+      <div class="d-flex align-items-center gap-2 overflow-auto pb-1">
+        <button type="button" class="btn btn-dark btn-sm rounded-pill fw-bold text-nowrap">Comensal 1</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm rounded-pill fw-bold text-nowrap">Comensal 2</button>
+        <button type="button" class="btn btn-outline-warning btn-sm rounded-pill fw-bold d-flex align-items-center gap-1 text-nowrap">
+          <i data-lucide="plus" style="width: 14px;"></i> Agregar
+        </button>
+      </div>
+
+      <!-- Tarjeta Principal del Perfil -->
+      <div class="card border-light shadow-sm rounded-4 p-4">
+        <div class="border-bottom pb-2 mb-3 d-flex justify-content-between align-items-center">
+          <span class="small fw-bold text-uppercase text-teal">Perfil de Comensal 1</span>
+          <span class="badge bg-light text-secondary fw-semibold">50 Platillos Catálogo</span>
+        </div>
+
+        <!-- 1. Ingredientes Favoritos -->
+        <section class="mb-4">
+          <h2 class="h6 fw-bold text-dark d-flex align-items-center gap-2 mb-2">
+            <i data-lucide="heart" class="text-purple" style="width: 16px;"></i>
+            Ingredientes favoritos
+          </h2>
+          <div class="d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-sm btn-purple fw-bold">Pollo</button>
+            <button type="button" class="btn btn-sm btn-purple fw-bold">Queso</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Carne de Res</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Camarones</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Aguacate</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Pasta</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Champiñones</button>
+          </div>
+        </section>
+
+        <!-- 2. Tamaño de las Porciones -->
+        <section class="mb-4">
+          <h2 class="h6 fw-bold text-dark d-flex align-items-center gap-2 mb-2">
+            <span class="rounded-circle bg-primary d-inline-block" style="width: 12px; height: 12px;"></span>
+            Tamaño de las porciones
+          </h2>
+          <div class="row g-2">
+            <div class="col-4">
+              <button type="button" class="btn btn-outline-secondary w-100 p-2 rounded-3 text-center">
+                <div class="small fw-bold text-dark">Chica</div>
+                <div class="text-muted" style="font-size: 10px;">10g - 35g</div>
+              </button>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-outline-secondary w-100 p-2 rounded-3 text-center">
+                <div class="small fw-bold text-dark">Mediana</div>
+                <div class="text-muted" style="font-size: 10px;">36g - 70g</div>
+              </button>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn border-primary bg-primary bg-opacity-10 w-100 p-2 rounded-3 text-center">
+                <div class="small fw-bold text-primary">Grande</div>
+                <div class="text-primary fw-medium" style="font-size: 10px;">71g - 90g</div>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. Ingredientes a Evitar -->
+        <section class="mb-4">
+          <h2 class="h6 fw-bold text-dark d-flex align-items-center gap-2 mb-2">
+            <i data-lucide="minus-circle" class="text-warning" style="width: 16px;"></i>
+            Ingredientes a evitar
+          </h2>
+          <div class="d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-sm btn-warning text-dark fw-bold">Cebolla</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Ajo</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Cilantro</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Brócoli</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Pepino</button>
+          </div>
+        </section>
+
+        <!-- 4. Prohibidos / Alergias -->
+        <section>
+          <h2 class="h6 fw-bold text-danger d-flex align-items-center gap-2 mb-2">
+            <i data-lucide="ban" class="text-danger" style="width: 16px;"></i>
+            Prohibidos / Alergias
+          </h2>
+          <div class="d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-sm btn-danger text-white fw-bold">Cacahuate</button>
+            <button type="button" class="btn btn-sm btn-outline-danger bg-danger bg-opacity-10">Ajonjolí</button>
+            <button type="button" class="btn btn-sm btn-outline-danger bg-danger bg-opacity-10">Huevo</button>
+            <button type="button" class="btn btn-sm btn-outline-danger bg-danger bg-opacity-10">Lácteos</button>
+            <button type="button" class="btn btn-sm btn-outline-danger bg-danger bg-opacity-10">Mariscos</button>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Enlace que lleva a la segunda pantalla -->
+      <a href="opciones.html" class="btn btn-purple w-100 py-3 rounded-3 fw-bold shadow-sm d-flex align-items-center justify-content-center gap-2 text-decoration-none">
+        <i data-lucide="sparkles" style="width: 18px;"></i>
+        Analizar Menú (50 platillos)
+      </a>
+
+    </main>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

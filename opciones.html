@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlateMatch - Opciones</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tipografía y Estilos Propios -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Iconos Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="text-dark pb-5">
+
+  <div class="container py-4" style="max-width: 500px;">
+
+    <!-- ENCABEZADO -->
+    <header class="d-flex align-items-center bg-white p-3 rounded-4 shadow-sm border border-light mb-4">
+      <div>
+        <h1 class="h3 fw-bold mb-0 text-dark">
+          Plate<span class="text-warning">Match</span>
+        </h1>
+        <p class="small text-muted mb-0 d-flex align-items-center gap-1 mt-1">
+          <span>Come bien - come rico</span>
+          <span>•</span>
+          <span class="badge bg-light text-dark fw-semibold">Mesa #4</span>
+        </p>
+      </div>
+    </header>
+
+    <!-- RECOMENDACIONES PERSONALIZADAS -->
+    <section class="vstack gap-3">
+
+      <div>
+        <a href="eleccion.html" class="btn btn-link text-decoration-none text-muted p-0 small fw-bold d-inline-flex align-items-center gap-1">
+          <i data-lucide="arrow-left" style="width: 14px;"></i> Editar preferencias
+        </a>
+      </div>
+
+      <!-- Resumen Superior -->
+      <div class="card border-light shadow-sm rounded-4 p-3">
+        <h2 class="text-center h6 fw-bold text-primary mb-3 d-flex align-items-center justify-content-center gap-2">
+          <span class="rounded-circle bg-primary d-inline-block" style="width: 8px; height: 8px;"></span>
+          Recomendaciones Personalizadas
+        </h2>
+        <div class="row text-center border-top pt-2">
+          <div class="col-4 border-end">
+            <div class="small fw-semibold text-teal" style="font-size: 11px;">Total Platillos</div>
+            <div class="h5 fw-bold text-teal mb-0">50</div>
+          </div>
+          <div class="col-4 border-end">
+            <div class="text-danger small fw-semibold" style="font-size: 11px;">Descartados</div>
+            <div class="h5 fw-bold text-danger mb-0">6</div>
+          </div>
+          <div class="col-4">
+            <div class="text-warning small fw-semibold" style="font-size: 11px;">Sugeridos</div>
+            <div class="h5 fw-bold text-warning mb-0">5</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta #1 -->
+      <article class="card border-warning shadow-sm rounded-4 p-3">
+        <div class="d-flex justify-content-between align-items-start gap-2">
+          <div>
+            <span class="small fw-bold text-uppercase text-muted" style="font-size: 10px;">Porción Grande</span>
+            <h3 class="h6 fw-bold text-dark mb-0 d-flex align-items-center gap-1">
+              <span>#1</span> Pollo y champiñones
+            </h3>
+          </div>
+          <span class="badge bg-success bg-opacity-10 text-success fw-bold px-2 py-1">99% Match</span>
+        </div>
+        <p class="small text-muted mt-1 mb-2">Pasta con pollo y champiñones bañada en queso.</p>
+        <div class="d-flex align-items-center gap-1 small fw-semibold text-danger mb-3">
+          <i data-lucide="heart" style="width: 14px;"></i>
+          <span>Incluye: Pollo, Champiñones, Queso, Pasta</span>
+        </div>
+        <div class="pt-2 border-top d-flex align-items-center justify-content-between">
+          <div class="row g-0 border rounded-3 overflow-hidden text-center small w-50">
+            <div class="col-6 bg-light p-1 border-end">
+              <div class="text-muted" style="font-size: 9px;">Calorías</div>
+              <div class="fw-bold text-dark" style="font-size: 11px;">450 kcal</div>
+            </div>
+            <div class="col-6 bg-light p-1">
+              <div class="text-muted" style="font-size: 9px;">Proteína</div>
+              <div class="fw-bold text-dark" style="font-size: 11px;">42g</div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-warning btn-sm fw-bold px-3 text-dark">+ Ordenar</button>
+        </div>
+      </article>
+
+      <!-- Tarjeta #2 -->
+      <article class="card border-light shadow-sm rounded-4 p-3">
+        <div class="d-flex justify-content-between align-items-start gap-2">
+          <div>
+            <span class="small fw-bold text-uppercase text-muted" style="font-size: 10px;">Porción Grande</span>
+            <h3 class="h6 fw-bold text-dark mb-0 d-flex align-items-center gap-1">
+              <span>#2</span> Pasta cremosa al Pesto
+            </h3>
+          </div>
+          <span class="badge bg-warning bg-opacity-10 text-warning fw-bold px-2 py-1">85% Match</span>
+        </div>
+        <p class="small text-muted mt-1 mb-2">Pasta ligera con espinacas, tomate y queso parmesano.</p>
+        <div class="d-flex align-items-center gap-1 small fw-semibold text-danger mb-3">
+          <i data-lucide="heart" style="width: 14px;"></i>
+          <span>Incluye: Pasta, Espinacas, Tomate, Queso</span>
+        </div>
+        <div class="pt-2 border-top d-flex align-items-center justify-content-between">
+          <div class="row g-0 border rounded-3 overflow-hidden text-center small w-50">
+            <div class="col-6 bg-light p-1 border-end">
+              <div class="text-muted" style="font-size: 9px;">Calorías</div>
+              <div class="fw-bold text-dark" style="font-size: 11px;">320 kcal</div>
+            </div>
+            <div class="col-6 bg-light p-1">
+              <div class="text-muted" style="font-size: 9px;">Proteína</div>
+              <div class="fw-bold text-dark" style="font-size: 11px;">28g</div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-warning btn-sm fw-bold px-3 text-dark">+ Ordenar</button>
+        </div>
+      </article>
+
+    </section>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
