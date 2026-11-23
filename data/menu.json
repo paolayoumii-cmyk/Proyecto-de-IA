@@ -1,0 +1,1101 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fried Chicken",
+    "ingredientes": [
+      "chicken",
+      "breading",
+      "oil"
+    ],
+    "porciones_g": {
+      "chicken": 300.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 400.0,
+    "proteina_g": 30.0,
+    "grasa_g": 25.0,
+    "carbohidratos_g": 15.0,
+    "metodo": "Frying",
+    "imagen": "https://file.b18a.io/7843322356500104680_443548_.jpeg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pho",
+    "ingredientes": [
+      "noodles",
+      "beef",
+      "basil",
+      "lime",
+      "green onions",
+      "chili"
+    ],
+    "porciones_g": {
+      "noodles": 200.0,
+      "beef": 100.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 450.0,
+    "proteina_g": 25.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 60.0,
+    "metodo": "boiled",
+    "imagen": "https://file.b18a.io/7833227147700100732_674878_.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pan-fried Dumplings",
+    "ingredientes": [
+      "dumplings",
+      "chili oil",
+      "soy sauce"
+    ],
+    "porciones_g": {
+      "dumplings": 300.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 400.0,
+    "proteina_g": 20.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 50.0,
+    "metodo": "Pan-frying",
+    "imagen": "https://file.b18a.io/7832600581600103585_264234_.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Noodle Stir-Fry",
+    "ingredientes": [
+      "noodles",
+      "chicken",
+      "vegetables",
+      "sauce"
+    ],
+    "porciones_g": {
+      "noodles": 300.0,
+      "chicken": 100.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 600.0,
+    "proteina_g": 25.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 80.0,
+    "metodo": "stir-fried",
+    "imagen": "https://file.b18a.io/7837642737500100261_173129_.jpeg"
+  },
+  {
+    "id": 5,
+    "nombre": "Mixed Asian Dish",
+    "ingredientes": [
+      "beef",
+      "vegetables",
+      "rice",
+      "soup"
+    ],
+    "porciones_g": {
+      "beef": 200.0,
+      "vegetables": 150.0,
+      "rice": 100.0,
+      "soup": 200.0
+    },
+    "porcion_total_g": 650.0,
+    "calorias": 800.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 90.0,
+    "metodo": "stir-fried and boiled",
+    "imagen": "https://file.b18a.io/7833121953100108589_546678_.jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "Noodle Soup",
+    "ingredientes": [
+      "noodles",
+      "broth",
+      "meat",
+      "vegetables"
+    ],
+    "porciones_g": {
+      "noodles": 200.0,
+      "broth with meat": 250.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 450.0,
+    "proteina_g": 25.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 60.0,
+    "metodo": "boiling",
+    "imagen": "https://file.b18a.io/7866178489900108040_851208_.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Spicy Crab",
+    "ingredientes": [
+      "crab",
+      "spices",
+      "vegetables",
+      "sauce"
+    ],
+    "porciones_g": {
+      "crab": 300.0,
+      "sauce": 50.0,
+      "vegetables": 100.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 500.0,
+    "proteina_g": 40.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "stir-fried",
+    "imagen": "https://file.b18a.io/7833622886400107807_294036_.jpeg"
+  },
+  {
+    "id": 8,
+    "nombre": "Sandwiches",
+    "ingredientes": [
+      "bread",
+      "meat",
+      "lettuce",
+      "tomato",
+      "cucumber"
+    ],
+    "porciones_g": {
+      "bread": 300.0,
+      "meat": 200.0,
+      "vegetables": 100.0
+    },
+    "porcion_total_g": 600.0,
+    "calorias": 800.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 90.0,
+    "metodo": "Assembled",
+    "imagen": "https://file.b18a.io/7839226081800109093_100152_.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Fried Chicken with Salad and Soup",
+    "ingredientes": [
+      "fried chicken",
+      "salad greens",
+      "soup broth",
+      "lemon",
+      "dipping sauce"
+    ],
+    "porciones_g": {
+      "fried chicken": 300.0,
+      "salad": 100.0,
+      "soup": 200.0
+    },
+    "porcion_total_g": 600.0,
+    "calorias": 800.0,
+    "proteina_g": 50.0,
+    "grasa_g": 45.0,
+    "carbohidratos_g": 30.0,
+    "metodo": "Fried",
+    "imagen": "https://file.b18a.io/7847358523300103851_673820_.jpeg"
+  },
+  {
+    "id": 10,
+    "nombre": "Meatball in sauce",
+    "ingredientes": [
+      "meat",
+      "sauce",
+      "green onions"
+    ],
+    "porciones_g": {
+      "meatball": 200.0,
+      "sauce": 100.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 350.0,
+    "proteina_g": 25.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "boiled or simmered",
+    "imagen": "https://file.b18a.io/7838946668200106359_887715_.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Mixed Fried Chicken Dishes",
+    "ingredientes": [
+      "chicken wings",
+      "fried ribs",
+      "spicy sauce",
+      "green peppers"
+    ],
+    "porciones_g": {
+      "chicken_wings": 300.0,
+      "fried_ribs": 200.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 550.0,
+    "calorias": 1200.0,
+    "proteina_g": 70.0,
+    "grasa_g": 80.0,
+    "carbohidratos_g": 50.0,
+    "metodo": "Fried",
+    "imagen": "https://file.b18a.io/7832733917900106063_487027_.jpeg"
+  },
+  {
+    "id": 12,
+    "nombre": "Stir-fried Meat Dish",
+    "ingredientes": [
+      "meat",
+      "onions",
+      "peppers",
+      "sauce"
+    ],
+    "porciones_g": {
+      "meat": 300.0,
+      "vegetables": 150.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 450.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 40.0,
+    "metodo": "stir-frying",
+    "imagen": "https://file.b18a.io/7874188598100102788_807742_.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "French Toast with Ice Cream",
+    "ingredientes": [
+      "bread",
+      "ice cream",
+      "chocolate sauce",
+      "blueberries",
+      "almonds"
+    ],
+    "porciones_g": {
+      "bread": 200.0,
+      "ice cream": 100.0,
+      "chocolate sauce": 30.0,
+      "blueberries": 50.0,
+      "almonds": 20.0
+    },
+    "porcion_total_g": 400.0,
+    "calorias": 600.0,
+    "proteina_g": 10.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "Fried",
+    "imagen": "https://file.b18a.io/7836119355100108298_615830_.jpeg"
+  },
+  {
+    "id": 14,
+    "nombre": "Spaghetti with Beef Sauce",
+    "ingredientes": [
+      "pasta",
+      "beef sauce",
+      "tomatoes",
+      "basil"
+    ],
+    "porciones_g": {
+      "pasta": 200.0,
+      "beef sauce": 150.0,
+      "tomatoes": 50.0,
+      "basil": 5.0
+    },
+    "porcion_total_g": 405.0,
+    "calorias": 600.0,
+    "proteina_g": 25.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 80.0,
+    "metodo": "boiled and simmered",
+    "imagen": "https://file.b18a.io/7833811386100102632_381078_.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Mixed Rice with Meat and Vegetables",
+    "ingredientes": [
+      "rice",
+      "meat",
+      "egg",
+      "pumpkin",
+      "greens",
+      "noodles"
+    ],
+    "porciones_g": {
+      "rice": 250.0,
+      "meat": 100.0,
+      "egg": 50.0,
+      "vegetables": 100.0
+    },
+    "porcion_total_g": 500.0,
+    "calorias": 600.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "Steamed and stir-fried",
+    "imagen": "https://file.b18a.io/7837802608000109194_273628_.jpeg"
+  },
+  {
+    "id": 16,
+    "nombre": "Mixed Meat Platter",
+    "ingredientes": [
+      "chicken",
+      "pork",
+      "green onions",
+      "vegetables"
+    ],
+    "porciones_g": {
+      "chicken": 200.0,
+      "pork": 150.0,
+      "vegetables": 100.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 600.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 20.0,
+    "metodo": "Grilled and stir-fried",
+    "imagen": "https://file.b18a.io/7854955575200100562_147822_.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Hot Pot",
+    "ingredientes": [
+      "meat",
+      "vegetables",
+      "sauce"
+    ],
+    "porciones_g": {
+      "meat": 200.0,
+      "vegetables": 150.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 400.0,
+    "calorias": 600.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 50.0,
+    "metodo": "boiling",
+    "imagen": "https://file.b18a.io/7832943003100103280_269511_.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Sandwich",
+    "ingredientes": [
+      "bread",
+      "meat",
+      "lettuce",
+      "tomato",
+      "sauce"
+    ],
+    "porciones_g": {
+      "bread": 150.0,
+      "meat": 100.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 350.0,
+    "proteina_g": 20.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 40.0,
+    "metodo": "Assembled",
+    "imagen": "https://file.b18a.io/7833005963100103263_750649_.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Mixed Asian Salad",
+    "ingredientes": [
+      "cabbage",
+      "carrots",
+      "peanuts",
+      "cucumbers",
+      "chili",
+      "herbs"
+    ],
+    "porciones_g": {
+      "salad": 300.0,
+      "stir_fry": 200.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 550.0,
+    "calorias": 600.0,
+    "proteina_g": 25.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 80.0,
+    "metodo": "Stir-fried and fresh",
+    "imagen": "https://file.b18a.io/7832572630100105431_307699_.jpeg"
+  },
+  {
+    "id": 20,
+    "nombre": "Steamed Dumplings",
+    "ingredientes": [
+      "dumpling dough",
+      "pork",
+      "vegetables",
+      "ginger",
+      "tea"
+    ],
+    "porciones_g": {
+      "dumplings": 250.0,
+      "tea": 150.0
+    },
+    "porcion_total_g": 400.0,
+    "calorias": 300.0,
+    "proteina_g": 12.0,
+    "grasa_g": 10.0,
+    "carbohidratos_g": 40.0,
+    "metodo": "Steaming",
+    "imagen": "https://file.b18a.io/7834125523600103463_265302_.jpeg"
+  },
+  {
+    "id": 21,
+    "nombre": "Spicy Noodles",
+    "ingredientes": [
+      "noodles",
+      "peanuts",
+      "cilantro",
+      "green onions",
+      "spicy sauce"
+    ],
+    "porciones_g": {
+      "noodles": 300.0,
+      "peanuts": 50.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 400.0,
+    "calorias": 600.0,
+    "proteina_g": 15.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 80.0,
+    "metodo": "boiled and mixed",
+    "imagen": "https://file.b18a.io/7833201180100101304_894925_.png"
+  },
+  {
+    "id": 22,
+    "nombre": "Steak with Noodles and Vegetables",
+    "ingredientes": [
+      "steak",
+      "noodles",
+      "corn",
+      "broccoli",
+      "egg"
+    ],
+    "porciones_g": {
+      "steak": 200.0,
+      "noodles": 150.0,
+      "corn": 100.0,
+      "broccoli": 50.0,
+      "egg": 50.0
+    },
+    "porcion_total_g": 550.0,
+    "calorias": 700.0,
+    "proteina_g": 45.0,
+    "grasa_g": 35.0,
+    "carbohidratos_g": 60.0,
+    "metodo": "Grilled and boiled",
+    "imagen": "https://file.b18a.io/7841801828300103135_402221_.jpeg"
+  },
+  {
+    "id": 23,
+    "nombre": "Mapo Tofu",
+    "ingredientes": [
+      "tofu",
+      "spicy sauce",
+      "green onions"
+    ],
+    "porciones_g": {
+      "tofu": 300.0,
+      "sauce": 50.0,
+      "green onions": 20.0
+    },
+    "porcion_total_g": 370.0,
+    "calorias": 300.0,
+    "proteina_g": 15.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "stir-fried",
+    "imagen": "https://file.b18a.io/7833259687500101845_923025_.jpeg"
+  },
+  {
+    "id": 24,
+    "nombre": "Grilled Salmon",
+    "ingredientes": [
+      "salmon",
+      "butter sauce",
+      "herbs"
+    ],
+    "porciones_g": {
+      "salmon": 200.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 250.0,
+    "calorias": 350.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 5.0,
+    "metodo": "Grilling",
+    "imagen": "https://file.b18a.io/7839457069800106658_470706_.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Roast Meat Rice",
+    "ingredientes": [
+      "roast pork",
+      "roast duck",
+      "rice",
+      "bok choy",
+      "lettuce"
+    ],
+    "porciones_g": {
+      "rice": 200.0,
+      "roast meat": 150.0,
+      "vegetables": 100.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 700.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "Roasting and steaming",
+    "imagen": "https://file.b18a.io/7833093411700106004_516509_.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Mixed Asian Dishes",
+    "ingredientes": [
+      "chicken",
+      "lettuce",
+      "sauce",
+      "ginger",
+      "onions"
+    ],
+    "porciones_g": {
+      "meat": 300.0,
+      "vegetables": 200.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 550.0,
+    "calorias": 800.0,
+    "proteina_g": 50.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "stir-fried and boiled",
+    "imagen": "https://file.b18a.io/7839516452600106199_626029_.jpeg"
+  },
+  {
+    "id": 27,
+    "nombre": "Crawfish",
+    "ingredientes": [
+      "crawfish",
+      "green onions",
+      "spices",
+      "sauce"
+    ],
+    "porciones_g": {
+      "crawfish": 300.0,
+      "green onions": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 250.0,
+    "proteina_g": 20.0,
+    "grasa_g": 5.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "boiled and seasoned",
+    "imagen": "https://file.b18a.io/7838338412600107642_651787_.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Grilled Salmon with Vegetables",
+    "ingredientes": [
+      "salmon",
+      "broccoli",
+      "tomato",
+      "lemon"
+    ],
+    "porciones_g": {
+      "salmon": 250.0,
+      "broccoli": 100.0,
+      "tomato": 50.0,
+      "lemon": 50.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 500.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "Grilling",
+    "imagen": "https://file.b18a.io/7833075192100108097_676450_.jpeg"
+  },
+  {
+    "id": 29,
+    "nombre": "Pizza",
+    "ingredientes": [
+      "pizza dough",
+      "tomato sauce",
+      "cheese",
+      "ham",
+      "parsley",
+      "cream"
+    ],
+    "porciones_g": {
+      "pizza": 300.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 285.0,
+    "proteina_g": 12.0,
+    "grasa_g": 10.5,
+    "carbohidratos_g": 36.0,
+    "metodo": "Baked",
+    "imagen": "https://file.b18a.io/7838329191100106713_671678_.jpeg"
+  },
+  {
+    "id": 30,
+    "nombre": "Stir-fried Noodles",
+    "ingredientes": [
+      "noodles",
+      "vegetables",
+      "chicken",
+      "soy sauce"
+    ],
+    "porciones_g": {
+      "noodles": 300.0,
+      "vegetables": 100.0,
+      "chicken": 100.0
+    },
+    "porcion_total_g": 500.0,
+    "calorias": 600.0,
+    "proteina_g": 20.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 90.0,
+    "metodo": "Stir-frying",
+    "imagen": "https://file.b18a.io/7832567775800104626_321012_.jpeg"
+  },
+  {
+    "id": 31,
+    "nombre": "Braised Pork Belly",
+    "ingredientes": [
+      "pork belly",
+      "soy sauce",
+      "rice",
+      "green onion"
+    ],
+    "porciones_g": {
+      "pork belly": 200.0,
+      "rice": 150.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 600.0,
+    "proteina_g": 25.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 50.0,
+    "metodo": "Braised",
+    "imagen": "https://file.b18a.io/7876854966400104214_383057_.jpeg"
+  },
+  {
+    "id": 32,
+    "nombre": "Dumpling",
+    "ingredientes": [
+      "dough",
+      "meat",
+      "vegetables"
+    ],
+    "porciones_g": {
+      "dumpling": 150.0
+    },
+    "porcion_total_g": 150.0,
+    "calorias": 250.0,
+    "proteina_g": 12.0,
+    "grasa_g": 10.0,
+    "carbohidratos_g": 30.0,
+    "metodo": "steamed",
+    "imagen": "https://file.b18a.io/7840651781300107427_667578_.png"
+  },
+  {
+    "id": 33,
+    "nombre": "Cheeseburger",
+    "ingredientes": [
+      "beef patty",
+      "cheese",
+      "bun",
+      "fried onions"
+    ],
+    "porciones_g": {
+      "beef patty": 150.0,
+      "cheese": 30.0,
+      "bun": 100.0,
+      "fried onions": 20.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 500.0,
+    "proteina_g": 30.0,
+    "grasa_g": 25.0,
+    "carbohidratos_g": 40.0,
+    "metodo": "Grilled",
+    "imagen": "https://file.b18a.io/7832942476300102846_645298_.png"
+  },
+  {
+    "id": 34,
+    "nombre": "Braised Pork",
+    "ingredientes": [
+      "pork",
+      "vegetables",
+      "spices"
+    ],
+    "porciones_g": {
+      "pork": 300.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 500.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 20.0,
+    "metodo": "braising",
+    "imagen": "https://file.b18a.io/7907854944000104519_464934_.jpeg"
+  },
+  {
+    "id": 35,
+    "nombre": "Mixed Platter",
+    "ingredientes": [
+      "rice",
+      "chicken",
+      "samosas",
+      "salad",
+      "yogurt"
+    ],
+    "porciones_g": {
+      "rice": 200.0,
+      "chicken": 150.0,
+      "samosas": 100.0,
+      "salad": 50.0
+    },
+    "porcion_total_g": 500.0,
+    "calorias": 1200.0,
+    "proteina_g": 80.0,
+    "grasa_g": 60.0,
+    "carbohidratos_g": 100.0,
+    "metodo": "Grilled and fried",
+    "imagen": "https://file.b18a.io/7864962007600107109_318815_.jpeg"
+  },
+  {
+    "id": 36,
+    "nombre": "Assorted Asian Dishes",
+    "ingredientes": [
+      "fish",
+      "spices",
+      "vegetables",
+      "rice",
+      "soup base"
+    ],
+    "porciones_g": {
+      "fish": 200.0,
+      "soup": 300.0,
+      "vegetables": 150.0,
+      "rice": 150.0
+    },
+    "porcion_total_g": 800.0,
+    "calorias": 1200.0,
+    "proteina_g": 80.0,
+    "grasa_g": 60.0,
+    "carbohidratos_g": 100.0,
+    "metodo": "Fried, boiled, and stewed",
+    "imagen": "https://file.b18a.io/7848122204100109805_554744_.jpeg"
+  },
+  {
+    "id": 37,
+    "nombre": "Spicy Cold Noodles",
+    "ingredientes": [
+      "noodles",
+      "cucumber",
+      "chili",
+      "garlic",
+      "soy sauce"
+    ],
+    "porciones_g": {
+      "noodles": 200.0,
+      "cucumber": 50.0,
+      "chili": 10.0
+    },
+    "porcion_total_g": 260.0,
+    "calorias": 250.0,
+    "proteina_g": 5.0,
+    "grasa_g": 10.0,
+    "carbohidratos_g": 30.0,
+    "metodo": "Chilled and mixed",
+    "imagen": "https://file.b18a.io/7833095524400106929_857320_.jpg"
+  },
+  {
+    "id": 38,
+    "nombre": "Omelette Rice",
+    "ingredientes": [
+      "rice",
+      "omelette",
+      "meat",
+      "broccoli",
+      "carrots"
+    ],
+    "porciones_g": {
+      "rice": 250.0,
+      "meat": 100.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 400.0,
+    "calorias": 600.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "stir-fried and steamed",
+    "imagen": "https://file.b18a.io/7837591843400105715_734195_.jpg"
+  },
+  {
+    "id": 39,
+    "nombre": "Braised Meat",
+    "ingredientes": [
+      "meat",
+      "sauce",
+      "spices"
+    ],
+    "porciones_g": {
+      "meat": 300.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 350.0,
+    "proteina_g": 30.0,
+    "grasa_g": 25.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "braised",
+    "imagen": "https://file.b18a.io/7837612151300101405_970931_.jpeg"
+  },
+  {
+    "id": 40,
+    "nombre": "Sushi and Salad",
+    "ingredientes": [
+      "sushi",
+      "salad greens",
+      "dressing",
+      "tomatoes"
+    ],
+    "porciones_g": {
+      "sushi": 200.0,
+      "salad": 150.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 600.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "Raw and assembled",
+    "imagen": "https://file.b18a.io/7834709583700102710_340980_.jpeg"
+  },
+  {
+    "id": 41,
+    "nombre": "Skewered Meat and Hot Pot",
+    "ingredientes": [
+      "meat",
+      "vegetables",
+      "noodles"
+    ],
+    "porciones_g": {
+      "meat": 200.0,
+      "vegetables": 150.0,
+      "noodles": 100.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 600.0,
+    "proteina_g": 40.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 50.0,
+    "metodo": "Grilling and boiling",
+    "imagen": "https://file.b18a.io/7834602390800107181_773394_.jpeg"
+  },
+  {
+    "id": 42,
+    "nombre": "Spicy Crawfish",
+    "ingredientes": [
+      "crawfish",
+      "garlic",
+      "green onions",
+      "spices"
+    ],
+    "porciones_g": {
+      "crawfish": 300.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 400.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "stir-fried",
+    "imagen": "https://file.b18a.io/7837129153400105208_674995_.jpg"
+  },
+  {
+    "id": 43,
+    "nombre": "Noodle Stir Fry",
+    "ingredientes": [
+      "noodles",
+      "chicken",
+      "mushrooms",
+      "vegetables",
+      "sauce"
+    ],
+    "porciones_g": {
+      "noodles": 300.0,
+      "chicken": 100.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 450.0,
+    "calorias": 600.0,
+    "proteina_g": 25.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 80.0,
+    "metodo": "stir-fried",
+    "imagen": "https://file.b18a.io/7833625466500108567_170217_.jpeg"
+  },
+  {
+    "id": 44,
+    "nombre": "Grilled Meat Skewers",
+    "ingredientes": [
+      "meat",
+      "green onions",
+      "sauce"
+    ],
+    "porciones_g": {
+      "meat": 200.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 250.0,
+    "calorias": 250.0,
+    "proteina_g": 20.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 5.0,
+    "metodo": "Grilling",
+    "imagen": "https://file.b18a.io/7833422443800101391_872856_.jpg"
+  },
+  {
+    "id": 45,
+    "nombre": "Roasted Duck",
+    "ingredientes": [
+      "duck",
+      "soy sauce",
+      "spices"
+    ],
+    "porciones_g": {
+      "duck": 300.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 350.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 0.0,
+    "metodo": "roasting",
+    "imagen": "https://file.b18a.io/7833167336300107489_321756_.jpeg"
+  },
+  {
+    "id": 46,
+    "nombre": "Ramen",
+    "ingredientes": [
+      "noodles",
+      "egg",
+      "broth",
+      "vegetables"
+    ],
+    "porciones_g": {
+      "noodles": 200.0,
+      "egg": 100.0,
+      "broth": 300.0,
+      "vegetables": 50.0
+    },
+    "porcion_total_g": 650.0,
+    "calorias": 600.0,
+    "proteina_g": 30.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 70.0,
+    "metodo": "boiling",
+    "imagen": "https://file.b18a.io/7832983546200100722_882152_.webp"
+  },
+  {
+    "id": 47,
+    "nombre": "Noodle Soup with Egg",
+    "ingredientes": [
+      "noodles",
+      "egg",
+      "greens",
+      "broth"
+    ],
+    "porciones_g": {
+      "noodles": 200.0,
+      "egg": 50.0,
+      "greens": 100.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 350.0,
+    "proteina_g": 20.0,
+    "grasa_g": 15.0,
+    "carbohidratos_g": 40.0,
+    "metodo": "boiling",
+    "imagen": "https://file.b18a.io/7834540261500103878_177436_.jpeg"
+  },
+  {
+    "id": 48,
+    "nombre": "Hawaiian Pizza",
+    "ingredientes": [
+      "pizza dough",
+      "ham",
+      "pineapple",
+      "cheese",
+      "corn"
+    ],
+    "porciones_g": {
+      "pizza": 300.0
+    },
+    "porcion_total_g": 300.0,
+    "calorias": 300.0,
+    "proteina_g": 15.0,
+    "grasa_g": 12.0,
+    "carbohidratos_g": 36.0,
+    "metodo": "Baked",
+    "imagen": "https://file.b18a.io/7838031788700103903_854283_.jpg"
+  },
+  {
+    "id": 49,
+    "nombre": "Stir-fried meat with vegetables and rice",
+    "ingredientes": [
+      "beef",
+      "green peppers",
+      "rice",
+      "spices",
+      "fried dough sticks"
+    ],
+    "porciones_g": {
+      "meat": 200.0,
+      "vegetables": 150.0,
+      "rice": 200.0
+    },
+    "porcion_total_g": 550.0,
+    "calorias": 800.0,
+    "proteina_g": 50.0,
+    "grasa_g": 30.0,
+    "carbohidratos_g": 90.0,
+    "metodo": "Stir-frying",
+    "imagen": "https://file.b18a.io/7841850970800101152_402478_.jpg"
+  },
+  {
+    "id": 50,
+    "nombre": "Steamed Meat Slices",
+    "ingredientes": [
+      "meat",
+      "green onions",
+      "sauce"
+    ],
+    "porciones_g": {
+      "meat": 300.0,
+      "sauce": 50.0
+    },
+    "porcion_total_g": 350.0,
+    "calorias": 350.0,
+    "proteina_g": 25.0,
+    "grasa_g": 20.0,
+    "carbohidratos_g": 10.0,
+    "metodo": "steaming",
+    "imagen": "https://file.b18a.io/7845028060500102777_268163_.jpg"
+  }
+]

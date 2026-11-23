@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlateMatch · Menú</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="barra-sup">
+    <div>
+      <h1 class="marca">Plate<span>Match</span></h1>
+      <p>Menú del restaurante</p>
+    </div>
+    <nav class="navegacion" data-actual="menu"></nav>
+  </header>
+
+  <div class="cuerpo">
+    <aside class="lateral">
+      <section class="bloque">
+        <h3>Buscar</h3>
+        <input class="campo" id="buscar" placeholder="Nombre o ingrediente">
+      </section>
+
+      <section class="bloque">
+        <h3>Tamaño de porción</h3>
+        <select class="campo" id="porcion">
+          <option value="">Todas</option>
+          <option value="chica">Chica</option>
+          <option value="mediana">Mediana</option>
+          <option value="grande">Grande</option>
+        </select>
+      </section>
+
+      <section class="bloque">
+        <h3>Ordenar por</h3>
+        <select class="campo" id="orden">
+          <option value="id">Orden del menú</option>
+          <option value="nombre">Nombre (A–Z)</option>
+          <option value="calorias-asc">Menos calorías</option>
+          <option value="calorias-desc">Más calorías</option>
+          <option value="proteina_g-desc">Más proteína</option>
+          <option value="carbohidratos_g-asc">Menos carbohidratos</option>
+          <option value="grasa_g-asc">Menos grasa</option>
+        </select>
+      </section>
+
+      <section class="bloque">
+        <h3>Ocultar platillos con</h3>
+        <div class="chips" id="excluir" style="max-height:none"></div>
+      </section>
+
+      <div class="lateral-pie">
+        <button type="button" class="btn-secundario" id="limpiar">Limpiar filtros</button>
+      </div>
+    </aside>
+
+    <main class="principal">
+      <div id="error-servidor" class="aviso aviso-rojo" hidden style="margin:0 0 20px">
+        No se pudo conectar con el servidor. Ejecuta <b>python app.py</b> y entra a <b>http://127.0.0.1:5000</b>.
+      </div>
+      <div class="titulo-resultados">
+        <div>
+          <h2>Menú del restaurante</h2>
+          <p id="conteo">Cargando…</p>
+        </div>
+      </div>
+      <div class="rejilla" id="rejilla"></div>
+    </main>
+  </div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
