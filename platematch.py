@@ -13,6 +13,7 @@ Ejecuta `python platematch.py --actualizar` para volver a generarlo.
 """
 
 import json
+import random
 import re
 import sys
 from pathlib import Path
@@ -58,6 +59,8 @@ def construir_menu(num_platillos=NUM_PLATILLOS):
     print("1. Conectando con el dataset en Hugging Face...")
     dataset = load_dataset(DATASET, split="train", streaming=True)
 
+    dataset = dataset.shuffle(seed=random.seed(None, version=2))
+
     print("2. Filtrando platillos (Restaurant food, 2+ ingredientes)...")
     menu, vistos = [], set()
     for item in dataset:
@@ -100,7 +103,7 @@ def construir_menu(num_platillos=NUM_PLATILLOS):
     return menu
 
 
-def cargar_menu(actualizar=False):
+def cargar_menu(actualizar=True):
     """Devuelve el menú desde data/menu.json; lo genera si no existe."""
     if RUTA_MENU.exists() and not actualizar:
         return json.loads(RUTA_MENU.read_text(encoding="utf-8"))
